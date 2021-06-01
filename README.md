@@ -6,13 +6,13 @@ This is a tensorflow implementation for method provided in
 
 To run our model follow the below steps:
 
-1- To prepare the dataset, download it from the following and then run "Preparing.m"
+1- To prepare the checkpoint, please read the readme.txt in checkpoint folder
 
-2- Run "mainResNet.py" for the training model using ResNet-18. The best model will be saved in the folder "ResNetModels"
+2- Download check point using mentioned like.
 
-3- Run "ExatrctResNetFeatures.py" for extracting ResNet features. This code loads the best model from folder "ResNetModels" (in step 1) and then extracts train and test features in a specific layer number. Features will be saved in the folder "ResNetFeatures"
+3- Run "cnn_code_alexnet_.ipynb"
 
-4- Run "RegResCapsNet.py" aiming signatures classification. This file used features of step 2 (which are saved in folder "ResNetFeatures") as input data.
+note that the checkpoint folder should place besides of cnn_code_alexnet_.ipynb. Then you read comments provided in "cnn_code_alexnet_" notebook for loading your own image.
 
 
 
