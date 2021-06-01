@@ -1,10 +1,12 @@
 # FattyLiverDiagnose
 Fatty Liver Diagnose using AlexNet for Ultrasound Images
 
-This is a tensorflow implementation for method provided in
+This is a tensorflow 1.x implementation for method provided in
 "Fatty Liver Diagnose using AlexNet for Ultrasound Images" (under review)
 
-To run our model follow the below steps:
+
+
+# To run our model follow the below steps:
 
 1- To prepare the checkpoint, please read the readme.txt in checkpoint folder
 
@@ -16,6 +18,7 @@ note that the checkpoint folder should place besides of cnn_code_alexnet_.ipynb.
 
 
 
+We used google colab for our runs. If you plane to run in your machine some changes may be needed in "cnn_code_alexnet_" as well as.
 
 
 
